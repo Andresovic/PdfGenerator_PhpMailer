@@ -1,0 +1,123 @@
+<style> 
+  .table-header, .header-data-patient {font-weight: bold;font-size: 12pt;}
+  .td-header {color: #222;font-size: 11pt;}
+  .header-data { text-align: center; background-color: #456aa2; color: white; font-weight: bold;font-size: 10pt;}
+  h2 {font-size: 12pt;text-align: left;}
+  p{text-align: justify;font-size: 10pt;color: #222;}
+  .registers td {font-size: 8pt;border-bottom: 1px solid #ccc;}
+  .table-footer th{ font-size: 6pt;}
+  .tablecontent {border: 1px solid #ccc;}
+  .tablecontent th {font-weight: bold;background-color: #456aa2; color: white;}
+  .tablecontent td {font-weight: bold;}
+</style>
+<!-- header -->
+<table class="table-header" cellpadding="10" cellspacing="0" align="center">
+  <tr nobr="true">
+    <th colspan="3">RESULTADOS DE LABORATORIO</th>
+  </tr>
+</table>
+<!-- patient data -->
+<table cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="header-data-patient" colspan="10" align="left">Datos del Paciente</td>
+    <th rowspan="11" colspan="4"> 
+      <img src="prueba.jpg" alt="Paciente" height="180" width="180">
+    </th>
+  </tr>
+  <tr>
+    <td class="td-header" colspan="5">Tutor :</td>
+    <td colspan="5">Verónica Franco Villaseñor</td>
+  </tr>
+  <tr>
+    <td class="td-header" colspan="5">Paciente :</td>
+    <td colspan="5">Fénix</td>
+  </tr>
+  <tr>
+    <td class="td-header" colspan="5">Color :</td>
+    <td colspan="5">Negro</td>
+  </tr>
+  <tr>
+    <td class="td-header" colspan="5">Edad :</td>
+    <td colspan="5">1 Año(s)</td>
+  </tr>
+  <tr>
+    <td class="td-header" colspan="5">Peso :</td>
+    <td colspan="5">0.90 Kg</td>
+  </tr>
+  <tr>
+    <td class="td-header" colspan="5">Raza :</td>
+    <td colspan="5">Spitz Alemán</td>
+  </tr>
+  <tr>
+    <td class="td-header" colspan="5">Sexo :</td>
+    <td colspan="5">Hembra</td>
+  </tr>
+  <tr>
+    <td class="td-header" colspan="5">Especie :</td>
+    <td colspan="5">Canino</td>
+  </tr>
+  <tr>
+    <td class="td-header" colspan="5">N°. Microchip :</td>
+    <td colspan="5">--</td>
+  </tr>
+</table>
+<!-- report type -->
+<h2 id="tiporeporte">Reporte | Química Sanguínea</h2>
+<!-- report text -->
+<p>A while back I needed to count the amount of letters that a piece of text in an email template had (to avoid passing any character limits). Unfortunately, I could not think of a quick way to do so on my macbook and I therefore turned to the Internet.
+There were a couple of tools out there, but none of them met my standards and since I am a web designer I thought: why not do it myself and help other
+</p>
+<!-- registers -->
+<table id="registers" style="display: block;" cellpadding="3.5" class="registers">
+  <tr>
+    <td>Header A</td>
+    <td>Cell B</td>
+    <td>Header A</td>
+    <td>Cell B</td>
+  </tr>
+  <tr>
+    <td>Header C</td>
+    <td>Cell D</td>
+    <td>Header C</td>
+    <td>Cell D</td>
+  </tr>
+  <tr>
+    <td>Header A</td>
+    <td>Cell B</td>
+    <td>Header A</td>
+    <td>Cell B</td>
+  </tr>
+  <tr>
+    <td>Header C</td>
+    <td>Cell D</td>
+    <td>Header C</td>
+    <td>Cell D</td>
+  </tr>
+</table>
+<!-- result value -->
+<table id="result-table" style="display: none;" class="tablecontent" cellpadding="0" cellspacing="0">
+  <tr>
+    <th align="center">Resultado</th>
+    <td align="center">Positivo</td>
+  </tr>
+</table>
+<!-- photos estudio -->
+<table id="photosestudio" cellpadding="10" cellspacing="20" border="0" style="text-align:center;">
+  <tr>
+    <td align="center">
+      <img src="http://profauna.com.mx/logo/profauna-logo-variacion.png" alt="paciente" height="80" width="130">
+      &nbsp;
+      <img src="http://profauna.com.mx/logo/profauna-logo-variacion.png" alt="paciente" height="80" width="130">
+    </td>
+  </tr>
+</table>
+<br><br>
+<!-- footer -->
+<table class="table-footer" cellpadding="2" cellspacing="0" align="center">
+  <tr nobr="true">
+    <th><strong>MVZ Nombre del medico | Ced: Prof. 09055383</strong></th>
+  </tr>
+  <tr nobr="true">
+    <th>No. Control. L-2020120001</th>
+  </tr>
+</table>
